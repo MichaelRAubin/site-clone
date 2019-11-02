@@ -1,0 +1,16 @@
+.background {
+    background: rgb(188, 187, 203);
+    background: linear-gradient(214deg, rgba(188, 187, 203, 1) 0%, rgba(70, 70, 190, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.img-sizing {
+    width: 475px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.icon-sizing {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
