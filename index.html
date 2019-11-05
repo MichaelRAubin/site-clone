@@ -12,33 +12,35 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Site-Clone</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Delicious</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Included</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Site-Clone</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Delicious</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Included</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <section class="container-fluid background">
         <div class="row">
-            <div class="col-12 col-lg-6 p-5">
+            <div class="order-2 order-lg-1 col-12 col-lg-6 p-5">
                 <h2>A Tribute to Win95</h2>
                 <p>The quintessential operating system of our lifetime. Win95 leveraged agile frameworks to provide a
                     robust synopsis for high level capabilities. Iterative approaches
@@ -51,8 +53,7 @@
                     2000! The world took notice! Check out the cool Win95 launch video! Enjoy!!</p>
                 <button class="btn btn-primary">READ MORE HERE</button>
             </div>
-            <div class="col-12 col-lg-6 p-5 text-center">
-                <!-- <img src="//placehold.it/200x200" alt="" class="img-fluid"> -->
+            <div class="order-1 order-lg-2 col-12 col-lg-6 p-5 text-center">
                 <iframe class="w-100 img-fluid" style="height:250px" src="https://www.youtube.com/embed/ojP0BO6H4Qc"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -73,9 +74,10 @@
                         onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
                     <div class="card-body">
                         <p class="card-text">The frequent Blue Screen of Death!</p>
+                        <button class="btn btn-primary mb-n5">CLICK FOR MORE INFO</button>
                     </div>
                 </div>
-                <button class="btn btn-primary mb-2">CLICK FOR MORE INFO</button>
+                <!-- <button class="btn btn-primary mb-5">CLICK FOR MORE INFO</button> -->
             </div>
             <div class="col-12 col-lg-4">
                 <div class="card mt-2 mb-2">
@@ -84,24 +86,26 @@
                         alt="Image result for windows 95 images">
                     <div class="card-body">
                         <p class="card-text">Powerful and cool applications!!</p>
+                        <button class="btn btn-primary mb-n5">CLICK FOR MORE INFO</button>
                     </div>
                 </div>
-                <button class="btn btn-primary mb-2">CLICK FOR MORE INFO</button>
+                <!-- <button class="btn btn-primary mb-5">CLICK FOR MORE INFO</button> -->
             </div>
             <div class="col-12 col-lg-4">
                 <div class="card mt-2 mb-2">
-                    <img class="img-sizing img-fluid" src="https://geekprank.com/images/background.jpg"
+                    <img class="w-100 img-sizing img-fluid" src="https://geekprank.com/images/background.jpg"
                         alt="Image result for desktop image windows 95">
                     <div class="card-body">
                         <p class="card-text">The Lush Rolling Hills Wallpaper</p>
+                        <button class="btn btn-primary mb-n5">CLICK FOR MORE INFO</button>
                     </div>
                 </div>
-                <button class="btn btn-primary mb-2">CLICK FOR MORE INFO</button>
+                <!-- <button class="btn btn-primary mb-5">CLICK FOR MORE INFO</button> -->
             </div>
         </div>
     </section>
     <section class="container-fluid">
-        <div class="row p-5">
+        <div class="row p-5 mt-5 mb-5">
             <div class="col-12 col-lg-6 mt-2 mb-2 text-center">
                 <img class="w-100 img-fluid"
                     src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555382377/shape/mentalfloss/windows_primary.jpg"

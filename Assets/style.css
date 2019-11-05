@@ -4,7 +4,7 @@
 }
 
 .img-sizing {
-    width: 475px;
+    /* width: 474.39px; */
     height: 263.46px;
     object-fit: cover;
 }
@@ -13,4 +13,8 @@
     width: 80px;
     height: 80px;
     object-fit: cover;
+}
+
+.row-height {
+    height: 350px;
 }
