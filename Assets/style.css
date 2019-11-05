@@ -16,5 +16,12 @@
 }
 
 .row-height {
-    height: 350px;
+    height: 50vh;
+}
+
+.spill {
+    position: absolute;
+    height: 15vh;
+    top: 10vh;
+    width: 90%;
 }
